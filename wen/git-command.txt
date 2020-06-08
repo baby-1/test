@@ -1,0 +1,47 @@
+git --version
+（gitlab）
+本地设置姓名： git cofig --global user.name "kai"
+本地邮箱：git config --global user.email"2581231115@qq.com"
+关联码云： 
+  1，申请账号
+
+  2，新建仓库
+  
+  3，线上线下关联
+                 gitbash 中 ssh-keygen -t rsa -C "2581231115@qq.com"
+                  生成公钥： cat ~/.ssh/id_rsa.pub
+                  公钥放在码云网
+                  克隆项目；
+注意：要在指定目录或文件下创建git -Bash
+clone （ssh） 输入git clone （码云ssh）
+ 1： git clone 地址
+ 2： git checkout   分支名（切换分支）
+ 3： git   checkout  master 
+ 4： git merge 分支名
+ 5： git add .
+ 6： git commit -m “”
+ 7： git  push
+ 8： git pull  （注意要进入目录）例如：cd到（puui）（显示master就是在主分支上）
+ 9： git log -g ：显示已经commit信息（内容过多可以过滤查找：git log -g -- author="邮箱"根据用户名过滤 ）git log -g --grep "xx"
+10:  git branch (new -branch -name)commitld  创建commit一个新分支 git log （看是否正确）
+11：git checkout origin/master 切换远程（master）分支
+13：git add(有空格)  .（添加本地的缓存区）（保存）（本地）
+14：git commit  -m“名字”（注意用双引号，单引号有麻烦）（添加标注告诉它我们在干啥）
+15 ：（切换到主分支（如果在主分支上就不用直接））
+16 ：切换到主分支上之后，添加到主分支上（git  merge （text、你的分支名字））
+17：最后一步（git push ）推到线上；
+18: (下次再开发的时候 git pull )拖回来
+19：clear清屏
+20：Windows窗口输入clc计算机（有一个程序员模式）
+21：切换磁盘cd e:
+22：///is -la 列出当前目录中的所有文件和目录，包括隐藏文件和目录
+23： git status 显示文件的状态，
+24：pwm显示当前所在路径
+25：git clean 清理 
+26：cd e:进入e盘；
+27：从github上git clone 到码云上，再克隆到 本地；快的飞起；http克隆比较慢，你可以更改http到ssh但是前提你github上必须有git公钥；
+28： setx key value
+29：deploy  ：部署“
+30：ssh -T git@github.com  查看你的git与github是否已经关联；
+31:  git remote add github  (ssh/https)
+32：git remote add gitee  （ssh/https）

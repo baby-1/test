@@ -1,0 +1,19 @@
+1首先下载node.js(最好是最新版)
+2打开git或者cmd（最好是git）
+3mpm信号源但是国内比较慢，（淘宝）所以 npm install -g cnpm --registry=http://registry.npm.taobao.org（淘宝镜像源）
+cnpm检查是否安装完成 windows 无法运行脚本输入set-ExecutionPolicy  RemoteSigned 把策略改成A
+4hexo框架 （cnpm install -g hexo-cli） hexo -v验证hexo框架
+5 mkdir blog创建blog文件 cd  e：这里我放到e盘 cd到blog
+6hexo init 初始化一个blog
+7hexo s（生成端口）
+hexo n（new）“我的第一篇博客”（is -l  = dir）
+返回blog目录  cd ../..
+hexo clean 
+hexo g 
+
+notepad 
+
+这个问题是由于在配置_config.yml文件的过程中没有严格按照规定的格式。
+
+①在": "后面必须要加一个空格；
+②在type,repo,branch前面加两个空格或一个水平制表符（Tab键）
